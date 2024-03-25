@@ -8,30 +8,39 @@ const guests = ['Pippo', 'Luigi', 'Nello']
 
 let nome = prompt('inserisci il tuo nome per partecipare alla festa')
 let trovato = false
+console.log(nome)
+console.log(trovato)
+console.log(guests)
 
 
 // let trovato = guests.includes(nome)
 // console.log(nome)
 // console.log(trovato)
 
-for (let i = 0 ; i < guests.lenght; i++) {
-
-    const currentName = guests[i]
-    console.log(currentName, nome)
+for ( let i = 0 ; i < guests.lenght; i++) {
+    let currentName = guests[i]
+    
+    console.log(nome)
+    console.log(trovato)
+    console.log(guests)
 
     if (currentName === nome) {
         let trovato = true
     }
-    console.log(currentName, nome, trovato)
+   
+    console.log(nome)
+    console.log(trovato)
+    console.log(guests)
 
 }
 
-if (trovato === true) {
 
-    console.log('puoi partecipare alla festa')
+// if (trovato === true) {
 
-}
+//     console.log('puoi partecipare alla festa')
 
-else {
-    console.log('spiacente, non puoi partecipare')
-}
+// }
+
+// else {
+//     console.log('spiacente, non puoi partecipare')
+// }
