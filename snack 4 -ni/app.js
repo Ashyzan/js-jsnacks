@@ -20,7 +20,7 @@ console.log(guests)
 for ( let i = 0 ; i < guests.lenght; i++) {
     let currentName = guests[i]
     
-    console.log(nome)
+    console.log(currentName)
     console.log(trovato)
     console.log(guests)
 
