@@ -6,7 +6,7 @@ let sum = 0;
 const numeri = []
 
 
-for ( let i = 0 ; i < 3 ; i++  ) {
+for ( let i = 0 ; i < 10 ; i++  ) {
 
     const num = parseFloat(prompt('inserisci un numero'));
     numeri.push(num)
