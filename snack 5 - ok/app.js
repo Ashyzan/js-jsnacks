@@ -11,18 +11,22 @@ array = []
 for (let i = 0 ; i<6 ; i++) {
 
     let arrayElement = array[i]
+    
+    console.log(arrayElement)
 
-    let num = parseFloat(prompt('inserisci un numero'))
+    let num = parseFloat(prompt('inserisci un numero')) // num
+    //console.log(num)
 
-    const dispari = num % 3 
+    const pari = num % 2
+    //console.log( pari)
 
-    if (num === dispari) {
+    
+    if (pari !== 0 ) {
 
+        console.log(` ${num} è dispari`)
         array.push(num)
         
-        
     }
-
-    console.log(arrayElement)
+    
+    console.log(array)
 }
-
